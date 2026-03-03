@@ -8,6 +8,7 @@ object Constants {
 
     // ─── Groq API ────────────────────────────────────────────────────────────
     const val GROQ_BASE_URL = "https://api.groq.com/"
+    val GROQ_API_KEY = com.casahayak.app.BuildConfig.GROQ_API_KEY
     const val GROQ_MODEL = "llama3-8b-8192"
 
     // ─── Feature Types ───────────────────────────────────────────────────────

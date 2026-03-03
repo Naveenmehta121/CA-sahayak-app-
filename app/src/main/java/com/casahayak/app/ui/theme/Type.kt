@@ -2,21 +2,14 @@ package com.casahayak.app.ui.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle
-import androidx.compose.ui.text.font.Font
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.sp
 
 /**
- * Inter font family — clean, professional, used in top fintech apps.
- * Bundled in res/font/ directory.
+ * Default font family used as a fallback since custom Inter fonts were not found in res/font.
  */
-val InterFontFamily = FontFamily(
-    Font(com.casahayak.app.R.font.inter_regular, FontWeight.Normal),
-    Font(com.casahayak.app.R.font.inter_medium, FontWeight.Medium),
-    Font(com.casahayak.app.R.font.inter_semi_bold, FontWeight.SemiBold),
-    Font(com.casahayak.app.R.font.inter_bold, FontWeight.Bold)
-)
+val InterFontFamily = FontFamily.Default
 
 val AppTypography = Typography(
     displayLarge = TextStyle(

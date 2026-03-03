@@ -1,6 +1,7 @@
 package com.casahayak.app.ui.onboarding
 
 import androidx.compose.animation.*
+import androidx.compose.foundation.ExperimentalFoundationApi
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.pager.HorizontalPager
@@ -48,6 +49,7 @@ private val pages = listOf(
 /**
  * 3-page onboarding carousel with page indicators and navigation.
  */
+@OptIn(ExperimentalFoundationApi::class)
 @Composable
 fun OnboardingScreen(onGetStarted: () -> Unit) {
     val pagerState = rememberPagerState(pageCount = { pages.size })
