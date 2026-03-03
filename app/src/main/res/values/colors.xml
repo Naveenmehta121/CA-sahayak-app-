@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Splash screen background — matches Indigo40 from Color.kt -->
+    <color name="splash_bg">#3828A1</color>
+    <color name="primary">#3828A1</color>
+</resources>

@@ -1,0 +1,34 @@
+# Gradle
+.gradle/
+build/
+local.properties
+
+# Android Studio
+.idea/
+*.iws
+*.iml
+*.ipr
+.DS_Store
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Secrets — NEVER commit these
+# local.properties contains GROQ_API_KEY and ADMOB_APP_ID
+local.properties
+
+# Firebase — download from Firebase Console
+app/google-services.json
+
+# Keystore files
+*.jks
+*.keystore
+
+# Proguard
+proguard/
+
+# Log files
+*.log
+
+# Build outputs
+app/release/

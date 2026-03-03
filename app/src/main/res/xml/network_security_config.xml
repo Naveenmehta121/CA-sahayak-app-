@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Network Security Configuration.
+    Allows cleartext traffic in DEBUG builds only.
+    In release, only HTTPS is permitted (enforced by default on API 28+).
+-->
+<network-security-config>
+    <debug-overrides>
+        <trust-anchors>
+            <!-- Trust user-installed certificates in debug (for Charles proxy etc.) -->
+            <certificates src="user" />
+        </trust-anchors>
+    </debug-overrides>
+</network-security-config>

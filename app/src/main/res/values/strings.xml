@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CA Sahayak</string>
+    <string name="app_tagline">Your AI-powered CA assistant</string>
+
+    <!-- Auth -->
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="email">Email address</string>
+    <string name="password">Password</string>
+    <string name="full_name">Full name</string>
+    <string name="create_account">Create Account &amp; Start Trial</string>
+    <string name="continue_google">Continue with Google</string>
+    <string name="already_have_account">Already have an account?</string>
+    <string name="dont_have_account">Don\'t have an account?</string>
+    <string name="start_free_trial">Start Free Trial</string>
+
+    <!-- Features -->
+    <string name="notice_reply">Notice Reply</string>
+    <string name="gst_explanation">GST Explanation</string>
+    <string name="client_reply">Client Reply</string>
+    <string name="engagement_letter">Engagement Letter</string>
+    <string name="generate">Generate</string>
+    <string name="copy">Copy</string>
+    <string name="save">Save</string>
+    <string name="retry">Retry</string>
+
+    <!-- Plans -->
+    <string name="premium_price">₹999/month</string>
+    <string name="trial_label">7-Day Free Trial</string>
+    <string name="free_plan">Free Plan</string>
+    <string name="premium_plan">Premium Plan</string>
+
+    <!-- AdMob (test IDs — replace before release) -->
+    <string name="admob_app_id">ca-app-pub-3940256099942544~3347511713</string>
+</resources>
