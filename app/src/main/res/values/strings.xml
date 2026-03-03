@@ -33,4 +33,8 @@
 
     <!-- AdMob (test IDs — replace before release) -->
     <string name="admob_app_id">ca-app-pub-3940256099942544~3347511713</string>
+
+    <!-- Firebase Auth Web Client ID -->
+    <!-- This MUST exactly match the client_id with client_type 3 in google-services.json -->
+    <string name="default_web_client_id">563032947572-XXXXX.apps.googleusercontent.com</string>
 </resources>
